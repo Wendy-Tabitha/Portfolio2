@@ -1,0 +1,52 @@
+import ProjectCard, { type Project } from '@/components/project-card';
+import { AnimatedSection } from '@/components/ui/animated-section';
+
+const featuredProjects: Project[] = [
+  {
+    id: 'project-1',
+    title: 'E-commerce Platform',
+    initialDescription: 'A full-featured e-commerce platform with user authentication, product listings, shopping cart, and order management. Built with a focus on scalability and user experience.',
+    techStack: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Stripe'],
+    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
+    liveUrl: '#', // Replace with actual live URL if available
+    imageUrl: 'https://placehold.co/600x400.png',
+    imageHint: 'online shopping store'
+  },
+  {
+    id: 'project-2',
+    title: 'Task Management App',
+    initialDescription: 'A collaborative task management application designed to help teams organize, track, and complete projects efficiently. Features include boards, lists, cards, and real-time updates.',
+    techStack: ['Vue.js', 'Firebase', 'Tailwind CSS', 'Vite'],
+    githubUrl: 'https://github.com/yourusername/task-manager',
+    // liveUrl: '#', // No live URL for this example
+    imageUrl: 'https://placehold.co/600x400.png',
+    imageHint: 'to-do list tasks'
+  },
+  {
+    id: 'project-3',
+    title: 'DevFolio Pro (This Portfolio)',
+    initialDescription: 'My personal portfolio website, built to showcase my skills, projects, and experience. Leverages modern web technologies and Genkit for AI-powered features.',
+    techStack: ['Next.js', 'React', 'Tailwind CSS', 'Genkit', 'TypeScript'],
+    githubUrl: 'https://github.com/yourusername/devfolio-pro',
+    liveUrl: '#', // Replace with actual live URL if available
+    imageUrl: 'https://placehold.co/600x400.png',
+    imageHint: 'developer portfolio website'
+  },
+];
+
+export default function ProjectsSection() {
+  return (
+    <AnimatedSection id="projects" className="bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-4xl font-bold text-center mb-12 text-primary">Featured Projects</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {featuredProjects.map((project, index) => (
+             <AnimatedSection key={project.id} as="div" delay={index * 150} className="!p-0 h-full">
+                <ProjectCard project={project} />
+            </AnimatedSection>
+          ))}
+        </div>
+      </div>
+    </AnimatedSection>
+  );
+}
