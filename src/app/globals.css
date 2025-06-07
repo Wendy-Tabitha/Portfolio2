@@ -4,50 +4,51 @@
 
 @layer base {
   :root {
-    --background: 210 20% 20%; /* Dark Blue-Gray */
-    --foreground: 210 10% 95%; /* Light Gray for text */
+    /* Blue-Green Gradient Theme */
+    --background: 220 25% 12%; /* Deep Dark Blue */
+    --foreground: 180 10% 95%; /* Light Cyan-Gray for text */
 
-    --card: 210 20% 25%;
-    --card-foreground: 210 10% 95%;
+    --card: 220 25% 18%; /* Darker Blue Card */
+    --card-foreground: 180 10% 95%;
 
-    --popover: 210 20% 25%;
-    --popover-foreground: 210 10% 95%;
+    --popover: 220 25% 18%;
+    --popover-foreground: 180 10% 95%;
 
-    --primary: 210 50% 50%; /* Vibrant Blue */
-    --primary-foreground: 210 50% 95%; /* Light text on primary */
+    --primary: 210 70% 55%; /* Bright Blue */
+    --primary-foreground: 210 70% 95%; /* Light text on primary */
 
-    --secondary: 210 20% 30%; /* Slightly lighter than background for secondary elements */
-    --secondary-foreground: 210 10% 95%;
+    --secondary: 160 30% 30%; /* Muted Green-Cyan */
+    --secondary-foreground: 160 10% 95%;
 
-    --muted: 210 20% 28%;
-    --muted-foreground: 210 15% 65%; /* Muted text */
+    --muted: 220 20% 25%; /* Muted Blue */
+    --muted-foreground: 210 15% 70%; /* Muted text */
 
-    --accent: 180 60% 60%; /* Bright Cyan */
-    --accent-foreground: 180 60% 15%; /* Dark text on accent */
+    --accent: 145 65% 45%; /* Vibrant Green */
+    --accent-foreground: 145 65% 95%; /* Light text on accent */
 
     --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 210 20% 35%; /* Borders */
-    --input: 210 20% 28%; /* Input background */
-    --ring: 210 50% 60%; /* Focus rings, slightly lighter primary */
+    --border: 220 25% 30%; /* Blue-tinted Border */
+    --input: 220 25% 22%; /* Blue-tinted Input background */
+    --ring: 210 70% 65%; /* Focus rings, slightly lighter primary blue */
 
     --radius: 0.5rem;
 
-    --chart-1: 210 50% 50%;
-    --chart-2: 180 60% 60%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --chart-1: 210 70% 55%; /* Primary Blue */
+    --chart-2: 145 65% 45%; /* Accent Green */
+    --chart-3: 190 60% 50%; /* Cyan */
+    --chart-4: 240 60% 65%; /* Indigo */
+    --chart-5: 120 50% 50%; /* Another Green */
 
-    --sidebar-background: 210 20% 18%;
-    --sidebar-foreground: 210 10% 90%;
-    --sidebar-primary: 210 50% 50%;
-    --sidebar-primary-foreground: 210 50% 95%;
-    --sidebar-accent: 180 60% 60%;
-    --sidebar-accent-foreground: 180 60% 15%;
-    --sidebar-border: 210 20% 30%;
-    --sidebar-ring: 210 50% 60%;
+    --sidebar-background: 220 25% 10%; /* Even Darker Blue for Sidebar */
+    --sidebar-foreground: 180 10% 90%;
+    --sidebar-primary: 210 70% 55%;
+    --sidebar-primary-foreground: 210 70% 95%;
+    --sidebar-accent: 145 65% 45%;
+    --sidebar-accent-foreground: 145 65% 95%;
+    --sidebar-border: 220 25% 25%;
+    --sidebar-ring: 210 70% 65%;
   }
 
   /* No .dark class needed if dark is the only theme */
