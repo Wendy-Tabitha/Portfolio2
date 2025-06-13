@@ -8,10 +8,8 @@ const skills = [
   { Icon: Code2, label: 'Frontend Development' },
   { Icon: Server, label: 'Backend Development' },
   { Icon: Database, label: 'Database Management' },
-  { Icon: Cloud, label: 'Cloud Computing' },
   { Icon: Smartphone, label: 'Responsive Design' },
   { Icon: PenTool, label: 'UI/UX Principles' },
-  { Icon: BrainCircuit, label: 'AI Integration' },
 ];
 
 export default function AboutSection() {
@@ -22,8 +20,8 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative w-full max-w-md mx-auto aspect-square rounded-lg overflow-hidden shadow-2xl group">
             <Image
-              src="https://placehold.co/600x600.png"
-              alt="Your Name - Profile Picture"
+              src="/pic.jpg"
+              alt="Wendy Tabitha - Profile Picture"
               data-ai-hint="professional portrait"
               layout="fill"
               objectFit="cover"
@@ -42,7 +40,7 @@ export default function AboutSection() {
               I believe in writing clean, maintainable code and collaborating effectively within teams to deliver high-quality products.
             </p>
             <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
-              <a href="/resume.pdf" download="YourName_Resume.pdf">
+              <a href="/Wendy_Akinyi_CV.pdf" download="Wendy_Akinyi_CV.pdf">
                 Download Resume <Download className="ml-2 h-5 w-5" />
               </a>
             </Button>
