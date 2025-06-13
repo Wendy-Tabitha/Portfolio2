@@ -8,7 +8,7 @@ export default function HeroSection() {
     <AnimatedSection id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-card !py-0">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          <span className="text-primary">Your Name</span>
+          <span className="text-primary">Wendy Tabitha</span>
         </h1>
         <p className="text-2xl sm:text-3xl md:text-4xl text-muted-foreground mb-4 font-headline animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           Software Developer & Tech Enthusiast
