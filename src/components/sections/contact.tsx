@@ -57,15 +57,15 @@ export default function ContactSection() {
               Feel free to reach out using the form or connect with me on social media.
             </p>
             <div className="space-y-4">
-              <a href="mailto:your.email@example.com" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors text-lg">
+              <a href="mailto:akinyiwendy46@gmail.com" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors text-lg">
                 <Mail className="h-6 w-6 text-primary" />
-                <span>your.email@example.com</span>
+                <span>akinyiwendy46@gmail.com</span>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors text-lg">
+              <a href="https://www.linkedin.com/in/wendy-tabitha-387b0722b/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors text-lg">
                 <Linkedin className="h-6 w-6 text-primary" />
                 <span>LinkedIn Profile</span>
               </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors text-lg">
+              <a href="https://github.com/Wendy-Tabitha" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors text-lg">
                 <Github className="h-6 w-6 text-primary" />
                 <span>GitHub Profile</span>
               </a>
