@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline text-primary hover:text-accent transition-colors">
             <Code2 className="w-8 h-8" />
-            <span>DevFolio Pro</span>
+            <span>Wendy</span>
           </Link>
 
           {/* Desktop Navigation */}
