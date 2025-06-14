@@ -41,7 +41,7 @@ export function AnimatedSection({ children, className, as: Component = 'section'
 
   return (
     <Component
-      ref={ref as any}
+      ref={ref}
       id={id}
       className={cn(
         'py-16 md:py-24 opacity-0 transition-all duration-700 ease-out',
