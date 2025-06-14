@@ -4,12 +4,12 @@ import { AnimatedSection } from '@/components/ui/animated-section';
 const featuredProjects: Project[] = [
   {
     id: 'project-1',
-    title: 'E-commerce Platform',
-    initialDescription: 'A full-featured e-commerce platform with user authentication, product listings, shopping cart, and order management. Built with a focus on scalability and user experience.',
-    techStack: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Stripe'],
-    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
-    liveUrl: '#', // Replace with actual live URL if available
-    imageUrl: 'https://placehold.co/600x400.png',
+    title: 'StockWise MSME Platform',
+    initialDescription: 'A lightweight yet powerful platform designed to help micro, small, and medium enterprises manage daily operations with ease. This solution was built with accessibility, efficiency, and the local business landscape in mind.',
+    techStack: ['TypeScript', 'Go', 'React'],
+    githubUrl: 'https://github.com/Stella-Achar-Oiro/biasharatrack',
+    liveUrl: 'http://biasharatrack.onrender.com',
+    imageUrl: '/Screenshot 2025-06-14 133604.png',
     imageHint: 'online shopping store'
   },
   {
