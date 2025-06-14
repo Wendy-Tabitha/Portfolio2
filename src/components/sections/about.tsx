@@ -10,6 +10,7 @@ const skills = [
   { Icon: Database, label: 'Database Management' },
   { Icon: Smartphone, label: 'Responsive Design' },
   { Icon: PenTool, label: 'UI/UX Principles' },
+  { Icon: PenTool, label: 'Technical writing' },
 ];
 
 export default function AboutSection() {
