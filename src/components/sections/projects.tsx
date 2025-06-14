@@ -5,21 +5,21 @@ const featuredProjects: Project[] = [
   {
     id: 'project-1',
     title: 'StockWise MSME Platform',
-    initialDescription: 'A lightweight yet powerful platform designed to help micro, small, and medium enterprises manage daily operations with ease. This solution was built with accessibility, efficiency, and the local business landscape in mind.',
+    initialDescription: 'A lightweight yet powerful platform designed to help micro, small and medium enterprises manage daily operations with ease. This solution was built with accessibility, efficiency, and the local business landscape in mind.',
     techStack: ['TypeScript', 'Go', 'React'],
     githubUrl: 'https://github.com/Stella-Achar-Oiro/biasharatrack',
     liveUrl: 'http://biasharatrack.onrender.com',
-    imageUrl: '/Screenshot 2025-06-14 133604.png',
+    imageUrl: '/Biasharatrack.png',
     imageHint: 'online shopping store'
   },
   {
     id: 'project-2',
-    title: 'Task Management App',
-    initialDescription: 'A collaborative task management application designed to help teams organize, track, and complete projects efficiently. Features include boards, lists, cards, and real-time updates.',
-    techStack: ['Vue.js', 'Firebase', 'Tailwind CSS', 'Vite'],
-    githubUrl: 'https://github.com/yourusername/task-manager',
-    // liveUrl: '#', // No live URL for this example
-    imageUrl: 'https://placehold.co/600x400.png',
+    title: 'Randomizer Studio',
+    initialDescription: 'A web application that provides users with various random generation tools in one place.',
+    techStack: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Genkit'],
+    githubUrl: 'https://github.com/Wendy-Tabitha/studio',
+    liveUrl: '#', // No live URL for this example
+    imageUrl: '/Randorium.png',
     imageHint: 'to-do list tasks'
   },
   {
