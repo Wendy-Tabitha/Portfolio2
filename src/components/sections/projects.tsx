@@ -24,10 +24,10 @@ const featuredProjects: Project[] = [
   },
   {
     id: 'project-3',
-    title: 'DevFolio Pro (This Portfolio)',
-    initialDescription: 'My personal portfolio website, built to showcase my skills, projects, and experience. Leverages modern web technologies and Genkit for AI-powered features.',
-    techStack: ['Next.js', 'React', 'Tailwind CSS', 'Genkit', 'TypeScript'],
-    githubUrl: 'https://github.com/yourusername/devfolio-pro',
+    title: 'real-time-forum',
+    initialDescription: 'This project is a single-page forum application which includes user registration and login, post creation, commenting, and private messaging. The backend uses Go to manage data and WebSocket connections for real-time interactions, while the frontend relies on JavaScript.',
+    techStack: ['Golang', 'Vanilla Javascript', 'SQLite'],
+    githubUrl: 'https://github.com/Wendy-Tabitha/real-time-forum',
     liveUrl: '#', // Replace with actual live URL if available
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'developer portfolio website'
