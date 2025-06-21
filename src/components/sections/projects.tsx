@@ -18,7 +18,7 @@ const featuredProjects: Project[] = [
     initialDescription: 'A web application that provides users with various random generation tools in one place.',
     techStack: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Genkit'],
     githubUrl: 'https://github.com/Wendy-Tabitha/studio',
-    liveUrl: '#', // No live URL for this example
+    liveUrl: 'https://randomizer-studio.vercel.app/', // No live URL for this example
     imageUrl: '/Randorium.png',
     imageHint: 'to-do list tasks'
   },
