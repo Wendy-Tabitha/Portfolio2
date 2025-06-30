@@ -18,9 +18,19 @@ const featuredProjects: Project[] = [
     initialDescription: 'A web application that provides users with various random generation tools in one place.',
     techStack: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Genkit'],
     githubUrl: 'https://github.com/Wendy-Tabitha/studio',
-    liveUrl: 'https://randomizer-studio.vercel.app/', // No live URL for this example
+    liveUrl: 'https://randomizer-studio.vercel.app/',
     imageUrl: '/Randorium.png',
     imageHint: 'to-do list tasks'
+  },
+  {
+    id: 'project-4',
+    title: 'CinemaApp',
+    initialDescription: 'CinemaApp is a sophisticated web application built with Next.js that offers users a seamless experience to discover, track, and manage their favorite movies and TV shows.',
+    techStack: ['Javascript', 'Next Js', 'genkit'],
+    githubUrl: 'https://github.com/Wendy-Tabitha/CinemaApp',
+    liveUrl: 'https://cinema-app-sable.vercel.app/',
+    imageUrl: '/cinema.png',
+    imageHint: 'developer portfolio website'
   },
   {
     id: 'project-3',
