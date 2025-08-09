@@ -10,17 +10,27 @@ const featuredProjects: Project[] = [
     githubUrl: 'https://github.com/Stella-Achar-Oiro/biasharatrack',
     liveUrl: 'http://biasharatrack.onrender.com',
     imageUrl: '/Biasharatrack.png',
-    imageHint: 'online shopping store'
+    imageHint: 'MSME management platform'
   },
   {
     id: 'project-2',
+    title: 'HealthnetAI',
+    initialDescription: 'The HealthNetAI platform is designed to provide offline-first healthcare services with AI-driven insights.',
+    techStack: ['JavaScript', 'Go', 'React'],
+    githubUrl: 'https://github.com/Evarest-ke/healthnetai',
+    liveUrl: 'https://healthnetai.vercel.app/',
+    imageUrl: '/Healthnet.png',
+    imageHint: 'healthcare management system'
+  },
+  {
+    id: 'project-3',
     title: 'Randomizer Studio',
     initialDescription: 'A web application that provides users with various random generation tools in one place.',
     techStack: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Genkit'],
     githubUrl: 'https://github.com/Wendy-Tabitha/studio',
     liveUrl: 'https://randomizer-studio.vercel.app/',
     imageUrl: '/Randorium.png',
-    imageHint: 'to-do list tasks'
+    imageHint: 'random generation tools'
   },
   {
     id: 'project-4',
@@ -30,17 +40,17 @@ const featuredProjects: Project[] = [
     githubUrl: 'https://github.com/Wendy-Tabitha/CinemaApp',
     liveUrl: 'https://cinema-app-sable.vercel.app/',
     imageUrl: '/cinema.png',
-    imageHint: 'developer portfolio website'
+    imageHint: 'movie and TV show management'
   },
   {
-    id: 'project-3',
+    id: 'project-5',
     title: 'real-time-forum',
     initialDescription: 'This project is a single-page forum application which includes user registration and login, post creation, commenting, and private messaging. The backend uses Go to manage data and WebSocket connections for real-time interactions, while the frontend relies on JavaScript.',
     techStack: ['Golang', 'Vanilla Javascript', 'SQLite'],
     githubUrl: 'https://github.com/Wendy-Tabitha/real-time-forum',
     liveUrl: '#', // Replace with actual live URL if available
     imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'developer portfolio website'
+    imageHint: 'forum application'
   },
 ];
 
