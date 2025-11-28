@@ -5,7 +5,7 @@ const experiences = [
   {
     role: 'Software Developer',
     company: 'Zone01 Kisumu',
-    dates: 'Apr 2024 - Present',
+    dates: 'Apr 2024 - Aug 2025',
     description: [
       'Collaborated in developing HealthnetAI website, utilizing AI to facilitate communication between patients with chronic illnesses and doctors remotely.',
       // 'Led development of key features for a flagship SaaS product, improving performance by 20%.',
@@ -17,7 +17,7 @@ const experiences = [
   {
     role: 'Software Developer',
     company: 'Zone01 Kisumu',
-    dates: 'Apr 2024 - Present',
+    dates: 'Apr 2024 - Aug 2025',
     description: [
       'Collaborated in building a multilingual platform for biasharatrack, aiding non-English-speaking users in managing their businesses efficiently.',
       // 'Developed and maintained responsive web applications for various clients using React and Angular.',
@@ -29,7 +29,7 @@ const experiences = [
   {
     role: 'Software Developer Intern',
     company: 'Zone01 Kisumu',
-    dates: 'Mar 2025 - Present',
+    dates: 'Mar 2025 - Aug 2025',
     description: [
       // 'Assisted senior developers in bug fixing and feature enhancements for a web platform.',
       // 'Gained experience with version control systems like Git and project management tools.',
